@@ -11,9 +11,9 @@ https://www.codespeedy.com/tic-tac-toe-game-using-java-swing-in-java/
 
 # How to run
 
-edit the 
+edit the following line in the main application:
 ```java
-JFrame application = GUIWrapper.CreateGui(Programs.TICTACTOE); line in the main application.
+JFrame application = GUIWrapper.CreateGui(Programs.TICTACTOE); 
 ```
 
 Programs is an enum. The value of the enum can be changed to the program you want to run.
