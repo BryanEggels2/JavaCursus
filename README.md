@@ -11,7 +11,7 @@ https://www.codespeedy.com/tic-tac-toe-game-using-java-swing-in-java/
 
 # How to run
 
-edit the following line in the main application:
+Edit the following line in the main application:
 ```java
 JFrame application = GUIWrapper.CreateGui(Programs.TICTACTOE); 
 ```
