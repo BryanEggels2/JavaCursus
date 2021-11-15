@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ead865ae-3a73-4b6f-9db1-f3a37a2a20f1" name="Default Changelist" comment="" />
+    <list default="true" id="ead865ae-3a73-4b6f-9db1-f3a37a2a20f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javatraining/Calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javatraining/Main/GUIWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javatraining/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javatraining/Main/Programs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javatraining/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TitleCaseConverter/com/sandermak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TitleCaseConverter/com/sandermak/TitlecaseConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sandermak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sandermak/TitlecaseConverter.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +23,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1T9y6aDo4l25nSKsVgGAquxGzaC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Projects/CodeWars" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -38,11 +57,11 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sandermak.Main" />
+      <option name="MAIN_CLASS_NAME" value="Javatraining.Main.Main" />
       <module name="TitleCaseConverter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sandermak.*" />
+          <option name="PATTERN" value="Javatraining.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sandermak.Calculator.Main" />
+      <module name="TitleCaseConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sandermak.Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -91,34 +124,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1635850495519" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1635849684580">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1635927618840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635849684580" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1635850624472">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635927618840" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1636969989178">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635850624472" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1635850624472">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636969989178" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1636969989177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635850624472" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1635850624471">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636969989177" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1636969989177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635850624471" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1635850624472">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636969989177" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1636969989177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635850624472" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1635850680741">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636969989177" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1635854421298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635850680741" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1635850488354">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635854421298" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1636966511350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1635850488354" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1636966511350" />
     <state x="209" y="114" key="new project wizard" timestamp="1635849707473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
