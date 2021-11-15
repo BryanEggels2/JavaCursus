@@ -8,3 +8,12 @@ file->  project structure -> project SDK -> 11 (of welke Java versie je gebruikt
 # Tic tac toe
 credits:
 https://www.codespeedy.com/tic-tac-toe-game-using-java-swing-in-java/
+
+# How to run
+
+edit the 
+```java
+JFrame application = GUIWrapper.CreateGui(Programs.TICTACTOE); line in the main application.
+```
+
+Programs is an enum. The value of the enum can be changed to the program you want to run.
