@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Battle!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/shards.min.css">
+    <style th:inline="text">
+        body{
+            background: url([[@{/images/arena.png}]]);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:white;
+        }
+        .playerPokemon{
+            position: absolute;
+            left: 200px;
+            top: 350px;
+            max-width: 50%;
+            height: 50%;
+        }
+        .enemyPokemon {
+            position: absolute;
+            right: 350px;
+            top: 250px;
+            max-width: 30%;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <img class="playerPokemon" th:src="@{images/{sprite}(sprite=${battle.getPlayer().getPokemon().getBacksprite()})}">
+        <img class="enemyPokemon" th:src="@{images/{sprite}(sprite=${battle.getEnemy().getPokemon().getSprite()})}">
+<!--        <img th:src="@{/images/arena.png}" style="height: 100%; width: 100%; object-fit: cover;"/>-->
+        <h2 class="my-5">Battle!</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>NAME: <span th:text="${battle.getPlayer().getPokemon().getName()}"></span></p>
+                        <p>LVL: <span th:text="${battle.getPlayer().getPokemon().getLevel()}"></span></p>
+                        <p>HP: <span th:text="${battle.getPlayer().getPokemon().getHealth()}"></span></p>
+                        <a th:each="move : ${battle.getPlayer().getPokemon().getMoves()}" th:href="@{/battle1}" th:object="${battle}" class="btn btn-primary"><p th:utext="${move.name}">!</p></a>
+                    </div>
+                    <div class="col-md-6">
+                            <p>NAME: <span th:text="${battle.getEnemy().getPokemon().getName()}"></span></p>
+                            <p>LVL: <span th:text="${battle.getEnemy().getPokemon().getLevel()}"></span></p>
+                            <p>HP: <span th:text="${battle.getEnemy().getPokemon().getHealth()}"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
